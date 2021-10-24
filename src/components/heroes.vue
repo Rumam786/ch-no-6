@@ -31,7 +31,7 @@
           <!-- <heroes-list> -->
 
           <!-- <hero-detail> -->
-            <HeroDetail />
+            <HeroDetail v-if="selectedHero" :hero="selectedHero"/>
           <div v-if="selectedHero">
             <div class="card">
               <header class="card-header">
