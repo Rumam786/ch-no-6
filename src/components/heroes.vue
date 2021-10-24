@@ -139,7 +139,7 @@ export default {
       capeMessage: '',
     };
   },
-  components : { HeroDetail },
+  components:{ HeroDetail },
   created() {
     this.loadHeroes();
   },
