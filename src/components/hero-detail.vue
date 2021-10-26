@@ -82,7 +82,7 @@ export default {
         ClonedHero: { ...this.hero},
       };
     },
-    mixin: [lifecycleHooks],
+     mixins: [lifecycleHooks],
     computed: {
         fullName() {
             return this.ClonedHero ?
